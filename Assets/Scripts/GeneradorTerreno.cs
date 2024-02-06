@@ -2,7 +2,7 @@
 using UnityEngine;
 
 public class GeneradorTerreno : MonoBehaviour
-{
+{   //He utilizado este script para generar parte del terreno de forma aleatoria
     private float perlinNoise = 0f;
     private float refinamiento = 0.01f;
     private float alturaMedia = 0.25f;
@@ -21,7 +21,8 @@ public class GeneradorTerreno : MonoBehaviour
 
             }
         }
-
+        //Esta línea, modifica el terreno cuando se ejecuta este Script, debe permanecer comentada,
+        //de lo contrario, el terreno se modificará cada vez que se inicie el programa
         //terreno.terrainData.SetHeights(0, 0, alturas);
         
 

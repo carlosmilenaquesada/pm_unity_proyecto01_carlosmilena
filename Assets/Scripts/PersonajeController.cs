@@ -5,6 +5,7 @@ using UnityEngine;
 public class PersonajeController : MonoBehaviour
 {
     private Vector3 inputPersonaje;
+    //En lugar de Rigidbody, utilizo character controller, ya que implementa algunas mejoras.
     private CharacterController characterController;
     private float velocidad = 10f;
 

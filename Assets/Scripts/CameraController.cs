@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    //Este script maneja la cámara, la cual puede rotar alrededor del personaje usando el ratón
     private Vector3 offset = new Vector3(0, 3, -10);
     public Transform jugador;
     private float sensibilidada = 0.6f;

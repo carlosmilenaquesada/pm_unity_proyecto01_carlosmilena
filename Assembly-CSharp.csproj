@@ -60,33 +60,9 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.17f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Disk.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Cone.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Cylinder.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\GeoSphere.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Teapot.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Gengon.cs" />
     <Compile Include="Assets\Scripts\PersonajeController.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Box.cs" />
     <Compile Include="Assets\Scripts\GeneradorTerreno.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Torus.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Sphere.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Arrow.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\OutlinedBox.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Quad.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Generators\GeoSphereGenerator.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Plane.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\WireBox.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\PrimitiveBase.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Generators\MeshGenerator.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Generators\TeapotGenerator.cs" />
-    <Compile Include="Assets\DestPrimitives\Source\Primitives\Tube.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\DestPrimitives\Doc\Readme.txt" />
-    <None Include="Assets\DestPrimitives\Content\Colored.shader" />
-    <None Include="Assets\DestPrimitives\Content\LitColored.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
