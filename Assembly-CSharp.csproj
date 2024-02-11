@@ -61,7 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\PersonajeController.cs" />
-    <Compile Include="Assets\Scripts\GeneradorTerreno.cs" />
+    <Compile Include="Assets\Scripts\Giro.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
